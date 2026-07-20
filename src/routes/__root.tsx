@@ -80,19 +80,23 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "AI Workplace Mate — Your AI productivity companion" },
+      { title: "Dashboard — AI Workplace Mate" },
       {
         name: "description",
         content:
-          "AI Workplace Mate helps professionals draft emails, plan tasks, summarize meetings, and research topics with responsible, ready-to-use AI tools.",
+          "Quick access to every AI tool: chat, email, research, summarizer, and planner.",
       },
-      { property: "og:title", content: "AI Workplace Mate" },
+      { property: "og:title", content: "Dashboard — AI Workplace Mate" },
       {
         property: "og:description",
-        content: "One AI dashboard for emails, research, meetings, planning, and chat.",
+        content: "Quick access to every AI tool: chat, email, research, summarizer, and planner.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Dashboard — AI Workplace Mate" },
+      { name: "twitter:description", content: "Quick access to every AI tool: chat, email, research, summarizer, and planner." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fc111999-9873-4aa7-8d70-a6cb575f5096/id-preview-4f5c681b--cca5e6ac-9ccc-40de-9658-8b19b8b99c6a.lovable.app-1784531824054.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fc111999-9873-4aa7-8d70-a6cb575f5096/id-preview-4f5c681b--cca5e6ac-9ccc-40de-9658-8b19b8b99c6a.lovable.app-1784531824054.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
